@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="rfstyle.css">
+</head>
+<body>
+    
+    
+
+
+
+
+    <div class="regform">
+
+        <h2 id="not">Sign up</h2>
+
+    <form action="nextpage.html">
+
+        <div class="input">
+            <label for="name" class="hii">User Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="input">
+            <label for="email" class="hii">Email Id</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="input">
+            <label for="password" class="hii">Password</label>
+            <input type="password" id="password"  name="password" required>
+        </div>
+
+        <div class="radio">
+            <input type="radio" name="gendar" id="male" >
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gendar" >
+            <label for="female">Female</label>
+        </div>
+
+        <div class="btn">
+            <button type="submit">Register</button>
+        </div>
+
+    </form>
+
+    </div>
+
+
+
+</body>
+</html>
+
+
+
+<.............................................>
+             CSS Code
+
+body{
+
+
+    background-image: url("image4.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* font-size: larger; */
+    /* padding-top:200px; */
+
+}
+
+.regform{
+
+    width: 500px;
+    background-color:rgba(0, 0, 0, .2);
+    margin:150px auto;
+    color: rgb(245, 248, 248);
+    padding:0px 50px 20px ;
+    font-size: 30px;
+
+}
+
+#not{
+
+    text-align: center;
+    color: rgb(28, 166, 225);
+    font-size: 2em;
+    /* padding-top: 20px; */
+}
+
+.hii{
+    display:block;
+}
+
+.input>input{
+
+
+    width:100%;
+    font-size:1.2em;
+    border-radius:10px 10px; 
+    box-shadow:10px 10px 10px;
+    padding:10px 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    /* background-color: aquamarine; */
+
+}
+
+input:focus{
+
+    background-color: cadetblue;
+}
+
+.btn{
+    text-align: center;
+}
+
+button{
+
+    font-size:30px;
+    margin-top: 20px;
+    color: aliceblue;
+    background-color: cadetblue;
+    border: 1px solid rgb(6, 113, 130) ;
+    border-radius: 8px;
+}
+
+.radio>input{
+
+    transform: scale(2);
+}
+
+
+<......................................................>
+
+   Next page-Ofter Login
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h3>welcome our site </h3>
+     <h5>Your login successfuly done thankyou...</h5>
+
+
+
+</body>
+</html>
+        
