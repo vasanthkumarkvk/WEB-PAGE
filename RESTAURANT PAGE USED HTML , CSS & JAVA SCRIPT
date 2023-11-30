@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+
+    <link rel="stylesheet" href="project.css">
+ </head>
+ <body>
+ <div class="div1">
+
+
+    <header>
+        <a href="" id="first">Vasanth</a>
+    <nav>
+        <a href="">Menu</a>
+        <a href="">Contect Us</a>
+    </nav>
+    </header>
+
+
+    <div id="second">
+        <div id="one">
+            Welcome to our Restaurant
+        </div>
+
+        <div id="two">
+            All type of food and snacks available
+        </div>
+
+        <div id="three">
+            Call my number +91 8667642578
+        </div>
+
+            <button>Order Online</button>
+    </div>
+
+</div>
+
+
+<h3>MENU</h3>
+
+<div class="div2">
+
+    <div class="ft1">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Morning Items</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Vadai</td>
+                <td>10.Rs</td>
+            </tr>
+            <tr>
+                <td>Dosai</td>
+                <td>30.Rs</td>
+            </tr>
+            <tr>
+                <td>Idly</td>
+                <td>6.Rs</td>
+            </tr>
+            <tr>
+                <td>Pongal</td>
+                <td>25.Rs</td>
+            </tr>
+            <tr>
+                <td>Poori</td>
+                <td>30.Rs</td>
+            </tr>
+        </tbody>
+    </table>
+   </div>
+
+
+
+
+  <div class="st2">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Lunch Items</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Sapadu</td>
+                <td>70.Rs</td>
+            </tr>
+            <tr>
+                <td>vegbiriyani</td>
+                <td>60.Rs</td>
+            </tr>
+            <tr>
+                <td>Parotta</td>
+                <td>12.Rs</td>
+            </tr>
+            <tr>
+                <td>Friderise</td>
+                <td>110.Rs</td>
+            </tr>
+            <tr>
+                <td>Chikengravy</td>
+                <td>100.Rs</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+
+
+
+
+
+  <div class="tt3">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Evening Snacks</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Vadai</td>
+                <td>10.Rs</td>
+            </tr>
+            <tr>
+                <td>Sundal</td>
+                <td>15.Rs</td>
+            </tr>
+            <tr>
+                <td>Bonda</td>
+                <td>6.Rs</td>
+            </tr>
+            
+        </tbody>
+    </table>
+  </div>
+
+
+
+
+
+<!-- 
+  <div class="ft4">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Night Special</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Friderise</td>
+                <td>110.Rs</td>
+            </tr>
+            <tr>
+                <td>Dosai</td>
+                <td>30.Rs</td>
+            </tr>
+            <tr>
+                <td>Idly</td>
+                <td>6.Rs</td>
+            </tr>
+            <tr>
+                <td>Sappathi</td>
+                <td>30.Rs</td>
+            </tr>
+            <tr>
+                <td>parotta</td>
+                <td>12.Rs</td>
+            </tr>
+        </tbody>
+    </table>
+  </div> -->
+
+</div>
+
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum animi dolorum corporis voluptatibus illum, nesciunt iusto soluta fuga quisquam ex deleniti excepturi cupiditate reiciendis dolorem, labore consequatur quam nam repellat.</p>
+<br>
+<br>
+<br>
+<br>
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quaerat maxime praesentium corporis sed error quidem velit, numquam expedita, ut vero perspiciatis harum, vel ex rem? Doloremque vel sunt ducimus?</p>
+
+</body>
+</html>
+
+
+
+
+<.......................................................>
+
+    CSS - Code
+
+
+:root{
+
+    --lightred:#A8A196;
+}
+
+
+
+
+
+
+body{
+    /* background-image: url("image.jpg.jpg"); */
+    margin: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+    /* font-size:18px; */
+    /* font-style:; */
+    /* font-weight:bold; */
+    /* background-color: blue; */
+}
+
+header a{
+
+    /* color: #872341; */
+    /* display:; */
+
+
+}
+
+.div1{
+    background-image: url(image.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    color: #22A699;
+    /* padding: px; */
+
+}
+
+header a{
+text-decoration: none;
+color: var(--lightred);
+}
+
+header{
+    display: flex;
+    padding: 15px;
+}
+
+#first{
+    /* display: flex; */
+    /* flex: 1; */
+    /* order: 3; */
+
+    flex: 3;
+
+
+}
+
+nav{
+    
+    flex: 2;
+    display: flex;
+ /* order: ; */
+}
+
+nav a{
+    
+flex: 1;
+}
+
+nav a:hover{
+    color: cyan;
+}
+
+
+#second{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content:center;
+    height: 55vh;
+    /* color: rgba(186, 226, 43, 0.568); */
+    
+}
+
+#one{
+    color: rgb(247, 234, 4);
+    font-size: 2.5em;
+    font-weight:bold;
+    margin-bottom: 2px;
+    /* text-transform: uppercase; */
+
+
+}
+
+#two{
+    color: rgb(236, 221, 10);
+    font-size: 1.2em;
+    margin-bottom: 35px;
+
+}
+
+#three{
+    color: rgb(239, 244, 246);
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+button{
+
+    width: 100px;
+    background-color: #22A699;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.div2{
+
+    margin:0;
+    background-color: rgba(131, 50, 50, 0.61);
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    /* background: linear-gradient(rgb); */
+    /* background-position: 2fr; */
+    /* padding: 10px; */
+    /* margin: 10px; */
+    /* display: grid; */
+    /* flex: ; */
+
+}
+
+h3{
+    margin:0;
+    padding: 5px;
+    background-color: #4f4a43;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+thead{
+    color: #01312c;
+    justify-content: center;
+
+}
+
+table{
+    width: 100%;
+}
+
+.div2 tr{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.div2 td:nth-child(1){
+
+    flex:1;
+    justify-content: left;
+}
+
+.div2 td:nth-child(2){
+
+    justify-content:right;
+}
+<................................................>
+
+
+
+
