@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body>
+   
+    <h2>select a city</h2>
+
+
+    <div id="noodels">
+<div>
+<select id="input">
+
+ <option value="chennai">chenai</option>
+<option value="banglore">banglore</option>
+<option value="mumbai">mumbai</option>
+<option value="kerala">kerala</option>
+
+</select>
+</div>
+<br>
+<div>
+
+    <button type="submit">show states</button>
+
+</div>
+</div>
+
+<script src="script.js">
+
+</script>
+
+<h3 id="love"></h3>
+
+
+</body>
+</html>
+
+
+
+<..........................................................................>
+
+          JAVA SCRIPT - Code
+
+
+
+// chennai: population=56965
+//          lrate = 56.46
+//          lang = "tamil"
+         
+// banglore: population=15454
+//          lrate = 46.46
+//          lang = "kannada"
+
+// mumbai: population=457685
+//          lrate = 85.65
+//          lang = "hindi"
+
+// kerala: population=54654
+//          lrate = 68.65
+//          lang = "malayalam"
+
+
+
+
+//   let button = document.querySelector("button")
+
+//   button.addEventListener("click",vasanth)
+
+
+
+
+//  let button=document.querySelector("button")
+
+// // event listener
+// button.addEventListener("click",vasanth)
+ 
+// // // new element created 
+// let resultdiv = document.createElement("div")
+//  resultdiv.id ='result'
+// document.getElementById("noodels").appendChild(resultdiv)
+
+
+
+// function vasanth(){
+
+// // // console.log("clicked")
+   
+// const sip = document.getElementById("input").value
+// console.log(sip)
+// const city = input.options[input.selectedIndex].value
+
+// // //    console.log(city)
+
+// let population=0
+// let lrate=0
+// let lang=""
+
+
+// // // console.log(text)
+
+
+// switch(sip){
+
+// case  'chennai':
+
+//           population=56965
+//           lrate = 56.46
+//           lang = "tamil" 
+//   break;
+
+//   case  'banglore':
+
+//          population=15454
+//          lrate = 46.46
+//          lang = "kannada"
+//  break;
+
+// case    'mumbai': 
+
+//            population=457685
+//            lrate = 85.65
+//            lang = "hindi"
+// break;
+
+// case    'kerala':  
+
+//               population=54654
+//               lrate = 68.65
+//               lang = "malayalam" 
+
+// break;
+
+
+
+// }
+
+// let text=`the city of ${city} and there are population ${population} in and the letracyrate of ${lrate}% and the people speeking language ${lang}`
+
+// // console.log(text)
+
+
+// document.getElementById("result").innerHTML=text
+
+
+
+
+// // let ww = document.getElementById("love")
+// //  ww.innerHTML=text
+
+
+
+// // mathippu = document.getElementById("input").value
+
+// // city= input.options[input.selectedIndex].value
+
+
+// // console.log(city)
+
+
+
+// }
+
+
+
+let button = document.querySelector("button")
+ 
+   button.addEventListener("click",vasanth)
+
+
+   function vasanth(){
+
+ let inputvalue=document.getElementById("input").value
+ 
+  let city=input.options[input.selectedIndex].value
+  
+
+ let population=0
+let lrate=0
+let lang=""
+
+switch(city)
+
+   {
+      
+        case  'chennai':
+
+          population=56965
+          lrate = 56.46
+          lang = "tamil" 
+  break;
+
+  case  'banglore':
+
+         population=15454
+         lrate = 46.46
+         lang = "kannada"
+ break;
+
+case    'mumbai': 
+
+           population=457685
+           lrate = 85.65
+           lang = "hindi"
+break;
+
+case    'kerala':  
+
+              population=54654
+              lrate = 68.65
+              lang = "malayalam" 
+
+break;
+
+}
+
+let text=`the city of ${city} and there are population ${population} in and the letracyrate of ${lrate}% and the people speeking language ${lang}`
+
+
+ let new1 = document.createElement("div")
+  
+  new1.id="output"
+   
+   document.getElementById("noodels").appendChild(new1)
+
+  document.getElementById("output").innerHTML=text
+
+
+   }
