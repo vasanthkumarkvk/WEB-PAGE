@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<header class="move">
+    <div class="one">
+
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Nextpage</a></li>
+        </ul>
+    <h4 id="vasanth">Vasanth Creation</h4>
+    </div>      
+</header>
+
+    
+        <article>
+            <h3>adds area </h3>
+            <a href=""><img src="https://assets.ajio.com/medias/sys_master/images/images/hd7/hcf/14844211527710/10122019-M-MHP-topbanner-NewArrivals-upto50.jpg" alt="" id="five5"></a>
+            <a href=""> <img src="https://s3.envato.com/files/225595224/01_preview4.jpg" alt="" class="kk"></a>
+            <a href=""><img src="https://i.pinimg.com/originals/60/b0/a4/60b0a4ee7e032a6281444a82705a665c.jpg" alt="" class="kk"></a>
+            <a href=""><img src="https://1.bp.blogspot.com/-BfT9SR19mtk/Usff2lVPweI/AAAAAAAAbYs/iN_aZGbL6_0/s1600/versace_menswear_ad_campaign_advertising_spring_summer_2014.jpg" alt="" class="kk"></a>
+            
+            <a href=""><img src="https://i.pinimg.com/736x/af/16/1a/af161a824e6c3ed7e1ec18f2d94b650c--ad-design-magazine-ads.jpg" alt="" class="kk"></a>
+            <a href=""></a>
+            <a href=""></a>
+        </article>
+    
+
+
+
+       
+            <footer>
+                <h3>Social Media</h3>
+                <a href="https://www.instagram.com/" target="_blank"><img src="https://img.icons8.com/?size=48&id=32323&format=png" alt=""></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="https://img.icons8.com/?size=48&id=118497&format=png" alt=""></a>
+                <a href="https://www.twitter.com/" target="_blank"><img src="https://img.icons8.com/?size=48&id=13963&format=png" alt=""></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="https://img.icons8.com/?size=48&id=13930&format=png" alt=""></a>
+               <a href="https://www.youtube.com/" target="_blank"><img src="https://img.icons8.com/?size=48&id=19318&format=png" alt=""></a>
+           
+               <div id="mail">
+                <a href="mailto:vasanthkvk248@gmail.com" >send mail</a>
+
+               </div>
+           
+            </footer>
+        
+   
+
+
+
+</body>
+</html>
+
+
+
+
+<.................................................................................................................................>
+
+                                 CSS -CODE
+
+
+header{
+    position: sticky;
+    top: 10px;
+    bottom: 10px;
+    
+    background-color: cadetblue;
+    /* width: ; */
+    font-size: 1.5em;
+
+    /* padding:0px;   */
+    grid-area: head;
+    border: 2px solid;
+   border: 20px 20px 20px 20px;
+    
+}
+
+
+body{
+    display: grid;
+    grid-template-areas:
+    "head head"
+    " adds adds "
+    " footer footer";
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 150px 1fr;
+   grid-gap: 20px;
+   background-color: aquamarine;
+
+}
+
+
+
+ul{
+   list-style-type: none;
+   /* padding: 10px; */
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+
+li{
+    display: inline;
+    margin: 20px;
+}
+
+
+article{
+    grid-area: adds;
+    background-color: rgb(237, 186, 128);
+    text-align: center;
+    border: 2px solid;
+}
+
+footer{
+    grid-area: footer;
+    background-color: rgb(238, 185, 166);
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#vasanth{
+    text-align-last: center;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 2px 20px ;
+    border: 0px;
+    margin: 0px;
+}
+
+/* article img{
+    width:700px;
+
+} */
+
+.kk{
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+}
+
+article>h3{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#five5{
+    width:100%;
+    
+}
+
+#mail{
+    text-align: left;
+}
+
